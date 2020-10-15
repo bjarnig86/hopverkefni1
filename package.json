@@ -1,0 +1,37 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Hópverkefni 1 í Vefforritun",
+  "main": "index.js",
+  "scripts": {
+    "lint-css": "stylelint styles.css",
+    "lint-scss": "stylelint styles.scss --syntax scss",
+    "lint": "stylelint styles.scss ./**/*.scss",
+    "dev": "concurrently npm:sass npm:browser-sync",
+    "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css -w",
+    "browser-sync": "browser-sync --server --files \"*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarnig86/hopverkefni1.git"
+  },
+  "author": "bjarnig86",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjarnig86/hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/bjarnig86/hopverkefni1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "concurrently": "^5.3.0",
+    "sass-watch": "^0.1.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.27.0"
+  }
+}
