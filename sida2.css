@@ -4,12 +4,34 @@
     box-sizing: border-box;
   }
 
+ /* Efsti hluti síðu */
+
+  .fyrirsognEyebrow{
+    display:flex;
+    margin-left:20px;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
+    color:#E3CDB1;
+  }
+  .fyrirsogn{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-right:10px;
+    margin-left:10px;
+    font-family: 'Playfair Display', helvetica, arial, sans-serif;
+  }
+  .fyrirsogn p{
+      margin-top:2%;
+  }
   h1 {
       /*margin-top:10%; */
-      margin-bottom:4%;
+      margin-bottom:2%;
       font-size:40px;
       font-family: 'Playfair Display', helvetica, arial, sans-serif;
   }
+
+  /* Meginmál síðu */
+
   .kassi {
       height: 413px;
       width: 413px;;
@@ -18,7 +40,6 @@
       flex-direction: column;
       overflow:hidden;
   }
-
   .kassi img {
       height: 300px;
       width:100%;
@@ -26,9 +47,8 @@
 
   .kassi p{
       margin-top:10px;
-      font-family: 'Poppins', helvetica, arial, sans-serif;
+      font-family: 'Poppins', helvetica, arial, sans-serif;   
   }
-
  
   .kassi h3{
       font-size:26px;
@@ -53,3 +73,6 @@
       margin-left:10px;
   }
   
+  .myndaLysing-2 .linkur{
+    color:#E3CDB1;
+  }
