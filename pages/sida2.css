@@ -78,13 +78,20 @@
   }
 
   /* Footer test */
-.footerContainer{
-    display:flex;
+.footerWidth{
+
     width:1600px;
     height:339px;
     background-color:black;
     margin:auto;
     margin-top:10%;
+}
+.footerContainer{
+    display:flex;
+    width:1600px;
+    height:339px;
+  
+    margin:auto;
 }
 .footerTexti{
     width:100%;
