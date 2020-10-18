@@ -76,3 +76,39 @@
   .myndaLysing-2 .linkur{
     color:#E3CDB1;
   }
+
+  /* Footer test */
+.footerContainer{
+    display:flex;
+    width:1600px;
+    height:339px;
+    background-color:black;
+    margin:auto;
+    margin-top:10%;
+}
+.footerTexti{
+    width:100%;
+}
+.footerTexti p{
+    color:white;
+    margin-top:130px;
+    margin-left:134px;
+}
+.footerTexti hfooter{
+    color:white;
+    font-family: 'Playfair Display', helvetica, arial, sans-serif;
+    font-size:40px;
+    margin-top:156px;
+    margin-left:134px;
+}
+.footerTexti label{
+    color:white;
+    margin-top:125px;
+    margin-left:100px;
+}
+.footerTexti input{
+    margin-top:157px;
+    margin-left:100px;
+    background-color:transparent;
+
+}
