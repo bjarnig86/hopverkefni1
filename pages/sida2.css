@@ -79,8 +79,7 @@
 
   /* Footer test */
 .footerWidth{
-
-    width:1600px;
+    max-width:1600px;
     height:339px;
     background-color:black;
     margin:auto;
@@ -90,30 +89,21 @@
     display:flex;
     width:1600px;
     height:339px;
-  
     margin:auto;
 }
 .footerTexti{
-    width:100%;
-    height:100%;
     display:flex;
     flex-direction:column;
 }
 .footerTexti p{
     color:white;
     margin-top:130px;
-    /*
-    margin-left:134px;
-    */
     font-family: 'Poppins', helvetica, arial, sans-serif; 
 }
 .footerTexti hfooter{
     color:white;
     font-family: 'Playfair Display', helvetica, arial, sans-serif;
     font-size:40px;
-    /*
-    margin-left:134px;
-    */
 }
 .footerTexti label{
     color:white;
