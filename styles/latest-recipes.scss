@@ -1,0 +1,53 @@
+@import './config';
+
+// stílar fyrir main
+.latest-recipes {
+  margin-top: 100px;
+  display: flex;
+  > .image {
+    border: 2px solid $black;
+    display: flex;
+    height: 290px;
+    overflow: hidden;
+  }
+
+  > .image img {
+    object-fit: cover;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  strong{
+    color: $color-4;
+  }
+
+  .title {
+    margin-bottom: 2em;
+  }
+
+  .above {
+    color: $color-3;
+  }
+
+  .info {
+    margin: 1em;
+  }
+
+  .info p {
+    color: $color-4;
+  }
+
+  .bottom {
+    color: $black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bottom a {
+    color: $color-3;
+  }
+
+}

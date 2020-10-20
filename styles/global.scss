@@ -13,6 +13,7 @@
 p,
 a {
   font-family: $main-font-family;
+  text-decoration: none;
 }
 
 h1,
@@ -24,7 +25,19 @@ h5 {
 }
 
 button {
+  height: 50px;
+  width: 250px;
+  border: 1px solid $color-3;
+  background-color: transparent;
+  color: $color-3;
+  &:hover {
+    background-color: $color-3;
+    color: $color-1;
+  }
+}
 
+main {
+  margin-top: 100px;
 }
 
 body {
