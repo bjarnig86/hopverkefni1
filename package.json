@@ -4,13 +4,13 @@
   "description": "Hópverkefni 1 í Vefforritun",
   "main": "index.js",
   "scripts": {
-    "lint-css": "stylelint styles.css",
-    "lint-scss": "stylelint styles.scss --syntax scss",
-    "lint": "stylelint styles.scss ./**/*.scss",
-    "dev": "concurrently npm:sass npm:browser-sync",
+    "browser-sync": "browser-sync start --server --files 'index.html', 'styles.css'",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
-    "sass": "node-sass --source-map-embed styles.scss styles.css ",
-    "browser-sync": "browser-sync --server --files \"*\""
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./*/.scss",
+    "lint-css": "stylelint styles.css",
+    "lint-scss": "stylelint styles.scss"
   },
   "repository": {
     "type": "git",
