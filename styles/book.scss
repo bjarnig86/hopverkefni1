@@ -1,0 +1,48 @@
+@import './config';
+
+// stílar fyrir bókahluta
+
+.book {
+  display: flex;
+  max-width: 1600px;
+  height: 670px;
+  background: linear-gradient($color-6, $color-6 80%, $white 35%);
+  margin: auto;
+  @media (max-width: 799px) {
+    height: 1200px;
+  }
+  .kassi {
+    height: 350px;
+    margin-bottom: 200px;
+    @media (max-width: 799px) {
+      margin-top: 100px;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .above {
+    color: $color-3;
+  }
+
+  .below {
+    color: $color-5;
+    line-height: 2em;
+    font-size: 1.125em;
+  }
+
+  h2 {
+    font-size: 3.75em;
+  }
+
+  img {
+    object-fit: fill;
+    padding-top: 100px;
+    width: 100%;
+    @media (max-width: 799px) {
+      padding-top: 0;
+    }
+
+  }
+
+}

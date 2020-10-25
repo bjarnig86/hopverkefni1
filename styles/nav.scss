@@ -11,13 +11,12 @@ nav {
     margin-top: 25px;
   }
   .nav-menu {
-    padding-right: 30px ;
     display: flex;
     justify-content: flex-end;
     margin: auto;
   }
   .nav-menu a {
-    margin-right: 1.5em;
+    margin-left: 1.5em;
     color: $color-5;
     text-decoration: none;
   }

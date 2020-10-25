@@ -1,0 +1,39 @@
+@import './config';
+
+.card {
+  min-height: 150px;
+  box-shadow: -15px 13px 20px 0px #ddd9d9;
+  margin-bottom: 30px;
+
+  img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em;
+    height: 100px;
+  }
+
+  .info p {
+    color: $color-4;
+  }
+
+  .bottom {
+    color: $black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bottom a {
+    color: $color-3;
+  }
+
+}
+
