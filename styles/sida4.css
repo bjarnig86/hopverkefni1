@@ -47,9 +47,9 @@
 
   .kassi p{
       margin-top:10px;
-      font-family: 'Poppins', helvetica, arial, sans-serif;   
+      font-family: 'Poppins', helvetica, arial, sans-serif;
   }
- 
+
   .kassi h3{
       font-size:26px;
       font-family: 'Playfair Display', helvetica, arial, sans-serif;
@@ -57,12 +57,12 @@
   }
 
   .myndaLysing-1{
-      
+
       margin-right:10px;
       margin-left:10px;
       margin-bottom:10px;
       font-size:20px;
-      
+
   }
 
   .myndaLysing-2{
@@ -72,7 +72,7 @@
       margin-right:10px;
       margin-left:10px;
   }
-  
+
   .myndaLysing-2 .linkur{
     color:#E3CDB1;
   }
