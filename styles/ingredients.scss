@@ -10,7 +10,6 @@
   &_list {
 
 
-
     & li {
 
       font-size: 1.125rem;
@@ -20,6 +19,7 @@
 
       &:first-letter {
         color: #E3CDB1;
+        font-family: $h-font-family;
         font-weight: 700;
         font-size: 2.25rem;
         margin-right: 20px;
