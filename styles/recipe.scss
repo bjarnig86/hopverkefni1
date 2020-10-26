@@ -1,4 +1,18 @@
+@import './config';
+
 .tags {
+
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ingredients > h2{
+  margin-bottom: 2rem;
+  margin-top:6rem;
+}
+
+.method > h2 {
+  margin-bottom: 2rem;
+  margin-top: 6.75rem;
 }
