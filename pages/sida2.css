@@ -76,3 +76,63 @@
   .myndaLysing-2 .linkur{
     color:#E3CDB1;
   }
+
+  /* Footer test */
+.footerWidth{
+    max-width:1600px;
+    height:339px;
+    background-color:black;
+    margin:auto;
+    margin-top:10%;
+}
+.footerContainer{
+    display:flex;
+    width:1600px;
+    height:339px;
+    margin:auto;
+}
+.footerTexti{
+    display:flex;
+    flex-direction:column;
+}
+.footerTexti p{
+    color:white;
+    margin-top:130px;
+    font-family: 'Poppins', helvetica, arial, sans-serif; 
+}
+.footerTexti hfooter{
+    color:white;
+    font-family: 'Playfair Display', helvetica, arial, sans-serif;
+    font-size:40px;
+}
+.footerTexti label{
+    color:white;
+    margin-top:134px;
+    margin-left:4px;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+.footerTexti input{
+    width:300px;
+    height:33px;
+    margin-left:4px;
+    margin-top:12px;
+    font-size:22px;
+    color:white;
+    font-family: 'Playfair Display', helvetica, arial, sans-serif;
+    background-color:transparent;
+}
+.buttonContainer{
+    display:flex;
+    justify-content:flex-end;
+}
+button {
+    background-color: black;
+    color: #E3CDB1;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Poppins', helvetica, arial, sans-serif;
+    width:250px;
+    height:52px;
+    margin-top:157px;
+}
