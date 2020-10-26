@@ -8,6 +8,7 @@ header {
   background-image: url('/img/bg-cake-shadow.png');
   background-repeat: no-repeat;
   background-position: right;
+
   .content {
     padding-top: 250px;
   }
@@ -31,5 +32,18 @@ header {
 
   h1 {
     font-size: 3.75em;
+  }
+}
+
+@media (max-width: 799px) {
+  header {
+    background-position-x: 300px;
+    .content {
+      text-align: center;
+    }
+
+    .below {
+      display: none;
+    }
   }
 }

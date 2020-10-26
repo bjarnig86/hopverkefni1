@@ -24,15 +24,9 @@ h5 {
   font-family: $h-font-family;
 }
 
-h2 {
-  color:#D0D0D0;
-  font-size: 2.5rem;
-}
-
 button {
-  font-size: 1.125em;
-  margin-top: 30px;
-  height: 50px;
+  margin: 2em;
+  min-height: 50px;
   width: 250px;
   border: 1px solid $color-3;
   background-color: transparent;
@@ -43,11 +37,7 @@ button {
   }
 }
 
-.seemore {
-  display:flex;
-  justify-content: center;
+main {
+  margin-top: 100px;
 }
 
-hr {
-  color: $color-3;
-}
