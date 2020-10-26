@@ -1,0 +1,23 @@
+@import './config';
+
+// stílar fyrir nav
+nav {
+  background-color: $white;
+  height: 80px;
+  position: fixed;
+  padding: 0;
+  width: 100vw;
+  .content {
+    margin-top: 25px;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+  }
+  .nav-menu a {
+    margin-left: 1.5em;
+    color: $color-5;
+    text-decoration: none;
+  }
+}

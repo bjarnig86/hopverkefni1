@@ -1,0 +1,29 @@
+@import './config';
+
+.ingredients {
+
+  & h3 {
+    font-size: 1.125rem;
+    font-family: $main-font-family;
+  }
+
+  &_list {
+
+
+
+    & li {
+
+      font-size: 1.125rem;
+      font-weight: 300;
+      font-family: $main-font-family;
+      color: #9B9B9B;
+
+      &:first-letter {
+        color: #E3CDB1;
+        font-weight: 700;
+        font-size: 2.25rem;
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import './config';
+
+// stílar fyrir bókahluta
+
+.book{
+  max-width: 1600px;
+  height: 670px;
+  margin-top: 80px;
+  background-color: $color-6;
+  display: flex;
+  margin: auto;
+  .content {
+    margin-top: 150px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+
+  }
+  h2{
+    color: $black;
+    font-size: 3.75rem;
+  }
+
+  .above {
+    color: $color-3;
+  }
+
+  .below {
+    font-size: 1.125em;
+
+  }
+
+  .image-book {
+    margin-top: 150px;
+    overflow: visible;
+      @media (max-width: 799px){
+      margin-top: 30px;
+    }
+  }
+
+  img {
+    position: absolute;
+    object-fit: cover;
+  }
+}
