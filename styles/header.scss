@@ -8,6 +8,16 @@ header {
   background-image: url('/img/bg-cake-shadow.png');
   background-repeat: no-repeat;
   background-position: right;
+  @media (max-width: 799px) {
+    .content {
+      text-align: center;
+    }
+
+    .below {
+      display: none;
+    }
+  }
+
   .content {
     padding-top: 250px;
   }
