@@ -3,13 +3,22 @@
 .method {
 
 
+  &_text {
 
+    &_instructions {
+      padding-bottom: 3rem;
+    }
 
-  font-size: 1.125rem;
-  font-family: $main-font-family;
-  font-weight: 300;
-  line-height: 2rem;
-  color: #5E5B69;
+    & p {
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
 
+    font-size: 1.125rem;
+    font-family: $main-font-family;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #5E5B69;
+  }
 
 }
