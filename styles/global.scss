@@ -1,0 +1,52 @@
+// Sækja config
+
+@import './config';
+
+// Allir stílar fyrir "global", þ.e.a.s. type selectorar, reset etc
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a {
+  font-family: $main-font-family;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $h-font-family;
+}
+
+h2 {
+  color:#D0D0D0;
+}
+
+button {
+  font-size: 1.125em;
+  margin-top: 30px;
+  height: 50px;
+  width: 250px;
+  border: 1px solid $color-3;
+  background-color: transparent;
+  color: $color-3;
+  &:hover {
+    background-color: $color-3;
+    color: $color-1;
+  }
+}
+
+.seemore {
+  display:flex;
+  justify-content: center;
+}
+
+hr {
+  color: $color-3;
+}

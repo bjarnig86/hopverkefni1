@@ -1,35 +1,59 @@
-@import './config';
-// stílar fyrir header
-header {
-  max-width: 1590px;
-  height: 800px;
-margin: auto;
-  background-color: $color-1;
-  background-image: url('/img/Video.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  .content {
-    padding-top: 250px;
+
+
+// Hér skal nota scss @for til að ítra út klösum fyrir grid
+.grid {
+  margin: 0 auto;
+  max-width: $max-width;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    width: ($i/$columns * 100%);
   }
-
-  .nav>img {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-
+  .offset-col-#{$i} {
+    margin-left: ($i/$columns * 100%);
   }
+}
 
-  .above {
-    color: $color-3;
+/*
+medium—upp að 800px
+*/
+
+@media (max-width: 799px) {
+  @for $i from 1 through $columns {
+    .col-md-#{$i} {
+      width: ($i/$columns * 100 * 1%);
+    }
+    .offset-col-md-#{$i} {
+      margin-left: ($i/$columns * 100 * 1%);
+    }
   }
+}
 
-  .below {
-    color: $color-5;
-    line-height: 2em;
-    font-size: 1.125em;
-  }
-
-  h1 {
-    font-size: 3.75em;
+/*
+small—upp að 500px
+*/
+@media (max-width: 499px) {
+  @for $i from 1 through $columns {
+    .col-sm-#{$i} {
+      width: ($i/$columns * 100 * 1%);
+    }
+    .offset-col-sm-#{$i} {
+      margin-left: ($i/$columns * 100 * 1%);
+    }
   }
 }
