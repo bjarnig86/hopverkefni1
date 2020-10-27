@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Latest recipes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sida2.css">
-    <link rel="stylesheet" href="/styles.scss">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="grid-overlay.css">
   </head>
@@ -32,7 +33,7 @@
         </div>
       </div>
     </nav>
-    <header>
+    <header1>
         <div class="content">
             <div class="grid">
                 <div class="row">
@@ -48,296 +49,409 @@
                 </div>
             </div>
         </div>
-    </header>
-
+    </header1>
     <main>
-        <div class="content">
+        <section class="latest-recipes">
+            <!--Row 1-->
             <div class="grid">
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/pumpkinPie.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/pumpkinPie.png" alt="Pumpkin Pie">
                             </div>
-                            <div class="myndaLysing-2">
-                                <h3>Pumpkin Pie</h3>
-                                <p class ="linkur">Read more</p>
-                            </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/milkCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                            <div class="info">
+                            <p class="month">September</p>
+                                <div class="bottom">
+                                    <h3>Pumpkin Pie</h3>
+                                    <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/milkCookies.png" alt="Milk Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
                                     <h3>Milk cookies</h3>
-                                    <p class ="linkur">Read more</p>
+                                    <a href="">Read more</a>
                                 </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/almondCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/almondCookies.png" alt="almond Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
+                                <h3>Almond cookies</h3>
+                                <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Almond cookies</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <br>
 
+                <!--row 2-->
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/bananaCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Banana cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/laxSalad.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Lax salad</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/cubeCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Cube cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/bananaCake.png" alt="">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Banana Cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/laxSalad.png" alt="Lax salad">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Lax salad</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/cubeCake.png" alt="Cube cake">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Cube cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
 
-                <br>
 
+                <!--Row 3-->
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/pumpkinPie.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                            <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/pumpkinPie.png" alt="Pumpkin Pie">
                             </div>
-                            <div class="myndaLysing-2">
-                                <h3>Pumpkin Pie</h3>
-                                <p class ="linkur">Read more</p>
-                            </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/milkCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                            <div class="info">
+                            <p class="month">September</p>
+                                <div class="bottom">
+                                    <h3>Pumpkin Pie</h3>
+                                    <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/milkCookies.png" alt="Milk Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
                                     <h3>Milk cookies</h3>
-                                    <p class ="linkur">Read more</p>
+                                    <a href="">Read more</a>
                                 </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/almondCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/almondCookies.png" alt="almond Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
+                                <h3>Almond cookies</h3>
+                                <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Almond cookies</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <br>
 
-                <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/bananaCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Banana cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/laxSalad.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Lax salad</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/cubeCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Cube cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
+                 <!--row 4-->
+                 <div class="row">
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/bananaCake.png" alt="">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Banana Cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/laxSalad.png" alt="Lax salad">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Lax salad</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/cubeCake.png" alt="Cube cake">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Cube cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
 
-                <br>
 
+                <!--Row 5-->
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/pumpkinPie.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                            <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/pumpkinPie.png" alt="Pumpkin Pie">
                             </div>
-                            <div class="myndaLysing-2">
-                                <h3>Pumpkin Pie</h3>
-                                <p class ="linkur">Read more</p>
-                            </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/milkCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                            <div class="info">
+                            <p class="month">September</p>
+                                <div class="bottom">
+                                    <h3>Pumpkin Pie</h3>
+                                    <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/milkCookies.png" alt="Milk Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
                                     <h3>Milk cookies</h3>
-                                    <p class ="linkur">Read more</p>
+                                    <a href="">Read more</a>
                                 </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/almondCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/almondCookies.png" alt="almond Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
+                                <h3>Almond cookies</h3>
+                                <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Almond cookies</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <br>
 
+                <!--Row 6-->
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/bananaCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Banana cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/laxSalad.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Lax salad</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/cubeCake.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
-                                </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Cube cake</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
-                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/bananaCake.png" alt="">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Banana Cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/laxSalad.png" alt="Lax salad">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Lax salad</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                          <div class="image">
+                            <img src="../img/cubeCake.png" alt="Cube cake">
+                          </div>
+                          <div class="info">
+                            <p class="month">September</p>
+                            <div class="bottom">
+                              <h3>Cube cake</h3>
+                              <a href="">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
 
-                <br>
-
+                <!--Row 7-->
                 <div class="row">
-                    <div class="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/pumpkinPie.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                            <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/pumpkinPie.png" alt="Pumpkin Pie">
                             </div>
-                            <div class="myndaLysing-2">
-                                <h3>Pumpkin Pie</h3>
-                                <p class ="linkur">Read more</p>
-                            </div>
-                        </section>
-                    </div>
-                    <div class ="col-4 col">
-                        <section class="kassi">
-                            <div class="image"><img src="img/milkCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                            <div class="info">
+                            <p class="month">September</p>
+                                <div class="bottom">
+                                    <h3>Pumpkin Pie</h3>
+                                    <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/milkCookies.png" alt="Milk Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
                                     <h3>Milk cookies</h3>
-                                    <p class ="linkur">Read more</p>
+                                    <a href="">Read more</a>
                                 </div>
-                        </section>
+                            </div>
+                        </div>
                     </div>
-                    <div class ="col-4 col">
-                        <section class = "kassi">
-                            <div class="image"><img src="img/almondCookies.png" alt=""></div>
-                            <div class="myndaLysing-1">
-                                <p>September</p>
+                    <div class="col col-4 offset-col-md-1 col-md-10">
+                        <div class="card">
+                            <div class="image">
+                                <img src="../img/almondCookies.png" alt="almond Cookies">
+                            </div>
+                            <div class="info">
+                                <p class="month">September</p>
+                                <div class="bottom">
+                                <h3>Almond cookies</h3>
+                                <a href="">Read more</a>
                                 </div>
-                                <div class="myndaLysing-2">
-                                    <h3>Almond cookies</h3>
-                                    <p class ="linkur">Read more</p>
-                                </div>
-                        </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            </div>  
+    </section>
+</main>
+=======
+            </div>
+        </div>
+    </main>
+<<<<<<< HEAD
+</body>
+=======
+<<<<<<< HEAD
+</body>
+=======
+>>>>>>> a366b092d622453660d4b5b8599c2db01d6cc61a
+    
+=======
+            </div>
+        </div>
+    </main>
+<<<<<<< HEAD
+</body>
+=======
+<<<<<<< HEAD
+</body>
+=======
+=======
+            </div>
+    </section>
+</main>
+>>>>>>> 8c80f4025c8a0c7a8f953bf57d6a598f44f9e1d8
+
+>>>>>>> 6b843ecc852f601f96a3c7721c3ef30dd21205ae
+    <footer>
+        <div class="footerWidth">
+            <div class="grid">
+                <div class="row">
+                    <div class="footerContainer">
+                        <div class="col-6 col">
+                            <div class="footerTexti">
+                                <p>Craving more?</p>
+                                <hfooter>Subscribe to our newsletter</hfooter>
+                            </div>
+                        </div>
+                        <div class="col-3 col">
+                            <div class="footerTexti">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email here">
+                            </div>
+                        </div>
+                        <div class="col-3 col">
+                            <div class="buttonContainer">
+                                <button>Subscribe now</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </footer>
+<<<<<<< HEAD
 </body>
+<<<<<<< HEAD
+=======
+</body>
+>>>>>>> Arnar
+>>>>>>> 183b01b71b3344e6c2abec7c2e6f178c80ad86ee
+>>>>>>> a366b092d622453660d4b5b8599c2db01d6cc61a
+=======
+>>>>>>> Arnar
+>>>>>>> 183b01b71b3344e6c2abec7c2e6f178c80ad86ee
+=======
+</body>
+>>>>>>> 8c80f4025c8a0c7a8f953bf57d6a598f44f9e1d8
+>>>>>>> 6b843ecc852f601f96a3c7721c3ef30dd21205ae
