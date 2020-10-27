@@ -1,23 +1,22 @@
 @import './config';
 // stílar fyrir header
 header {
-  max-width: 1590px;
-  height: 800px;
-  margin: auto;
   background-color: $color-1;
   background-image: url('/img/bg-cake-shadow.png');
-  background-repeat: no-repeat;
   background-position: right;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: auto;
+  max-width: 1590px;
 
   .content {
     padding-top: 250px;
   }
 
-  .nav>img {
+  .nav > img {
     display: flex;
     justify-content: center;
     position: fixed;
-
   }
 
   .above {
@@ -26,8 +25,8 @@ header {
 
   .below {
     color: $color-5;
-    line-height: 2em;
     font-size: 1.125em;
+    line-height: 2em;
   }
 
   h1 {
@@ -38,6 +37,7 @@ header {
 @media (max-width: 799px) {
   header {
     background-position-x: 300px;
+
     .content {
       text-align: center;
     }

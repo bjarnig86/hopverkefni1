@@ -1,9 +1,9 @@
 @import './config';
 
 .card {
-  min-height: 150px;
-  box-shadow: -15px 13px 20px 0px #ddd9d9;
+  box-shadow: -15px 13px 20px #ddd9d9;
   margin-bottom: 30px;
+  min-height: 150px;
 
   img {
     display: flex;
@@ -12,12 +12,12 @@
   }
 
   .info {
-    justify-content: center;
     display: flex;
     flex-direction: column;
+    height: 100px;
+    justify-content: center;
     margin: auto;
     padding: 1em;
-    height: 100px;
   }
 
   .info p {
@@ -34,6 +34,4 @@
   .bottom a {
     color: $color-3;
   }
-
 }
-

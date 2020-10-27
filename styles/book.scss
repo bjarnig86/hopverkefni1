@@ -3,24 +3,26 @@
 // stílar fyrir bókahluta
 
 .book {
-  display: flex;
-  max-width: 1600px;
-  height: 670px;
   background: linear-gradient($color-6, $color-6 80%, $white 25%);
+  display: flex;
+  height: 670px;
   margin: auto;
+  max-width: 1600px;
+
   @media (max-width: 799px) {
     height: 1200px;
   }
+
   .kassi {
-    margin-top: 100px;
     height: 350px;
     margin-bottom: 200px;
+    margin-top: 100px;
+
     @media (max-width: 799px) {
-      margin-top: 100px;
       margin-bottom: 10px;
+      margin-top: 100px;
       text-align: center;
     }
-
   }
 
   .above {
@@ -29,8 +31,8 @@
 
   .below {
     color: $color-5;
-    line-height: 2em;
     font-size: 1.125em;
+    line-height: 2em;
   }
 
   h2 {
@@ -38,14 +40,13 @@
   }
 
   img {
-    box-shadow: -15px 13px 20px 0px #ddd9d9;
-    object-fit: fill;
+    box-shadow: -15px 13px 20px #ddd9d9;
     margin-top: 100px;
+    object-fit: fill;
     width: 100%;
+
     @media (max-width: 799px) {
       padding-top: 0;
     }
-
   }
-
 }
