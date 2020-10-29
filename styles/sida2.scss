@@ -12,6 +12,7 @@
   .fyrirsognEyebrow{
     display:flex;
     margin-left:20px;
+    margin-top: 8%;
     font-family: 'Poppins', helvetica, arial, sans-serif;
     color:#E3CDB1;
   }
@@ -90,6 +91,7 @@
 }
 .footerContainer{
     display:flex;
+    flex-wrap:wrap;
     width:1600px;
     height:339px;
     margin:auto;
