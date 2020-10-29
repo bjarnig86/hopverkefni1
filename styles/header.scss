@@ -2,37 +2,23 @@
 // stílar fyrir header
 header {
   background-color: $color-1;
-<<<<<<< HEAD
   background-image: url('/img/bg-cake-shadow.png');
-=======
-
-<<<<<<< HEAD
-=======
-  background-repeat: no-repeat;
->>>>>>> e01ae8725ad3312324eb6faa0d00077b8bb71e05
   background-position: right;
   background-repeat: no-repeat;
   height: 800px;
   margin: auto;
   max-width: 1590px;
->>>>>>> 5fdffe92d5756b3c7ee044fcec014dae99166152
 
   .content {
     padding-top: 250px;
   }
 
-<<<<<<< HEAD
+
   .light {
     max-width: 1590px;
     height: 800px;
     margin: auto;
     background-color: $color-1;
-=======
-<<<<<<< HEAD
-  .nav > img {
-=======
-  .content_header_image {
->>>>>>> 5fdffe92d5756b3c7ee044fcec014dae99166152
     background-image: url('/img/bg-cake-shadow.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -42,7 +28,6 @@ header {
 
 
   .nav>img {
->>>>>>> e01ae8725ad3312324eb6faa0d00077b8bb71e05
     display: flex;
     justify-content: center;
     position: fixed;
