@@ -32,26 +32,26 @@
 
   <header>
     <div class="light">
-      <!--Fá Lindu til að gera "DARK/VIDEO" klasa-->
       <div class="grid">
         <div class="row">
           <div class="col col-5 col-md-8 offset-col-md-2">
             <div class="content">
-              <div class="content_header_image">
-                <h1>Pumpkin pie</h1>
-                <div class="tags">
-                  <div class="level">
-                    <img src="../img/Level-Icon.svg" alt="Level-Icon">
-                    <p><strong>Easy</strong> recipe</p>
-                  </div>
-                  <div class="serving">
-                    <img src="../img/Servings-Icon.svg" alt="Servings-Icon">
-                    <p>6 people</p>
-                  </div>
-                  <div class="preparation">
-                    <img src="../img/Preparation-Icon.svg" alt="Preparation-Icon">
-                    <p>1 hour</p>
-                  </div>
+              <h1>Pumpkin pie</h1>
+              <p class="below_mobile">
+                As you pour the first glass of your favorite Chianti or Chardonnay
+              </p>
+              <div class="tags">
+                <div class="level">
+                  <img src="../img/Level-Icon.svg" alt="Level-Icon">
+                  <p><strong>Easy</strong> recipe</p>
+                </div>
+                <div class="serving">
+                  <img src="../img/Servings-Icon.svg" alt="Servings-Icon">
+                  <p>6 people</p>
+                </div>
+                <div class="preparation">
+                  <img src="../img/Preparation-Icon.svg" alt="Preparation-Icon">
+                  <p>1 hour</p>
                 </div>
               </div>
               <p class="below">
@@ -70,7 +70,7 @@
 
     <div class="grid">
       <div class="row">
-        <div class="col col-4">
+        <div class="col col-4 offset-col-md-1 col-md-10">
           <div class="recipe_middle">
             <div class="ingredients">
               <h2>
@@ -95,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-8">
+        <div class="col col-8 offset-col-md-1 col-md-10">
           <div class="method">
             <h2>
               <div class="recipe_h2">
@@ -104,15 +104,15 @@
             </h2>
             <div class="method_text">
               <section class="method_text_instructions">
-                <p>
+                <p class="method_desktop">
                   Wrap the crackers in a tea towel and smash up until fine, breaking up any big bits with your hands,
                   and
                   put them into a large bowl.</p>
-                <p>
+                <p class="method_desktop">
                   Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to
                   the
                   bowl. Crack in the egg and add a good pinch of salt and pepper.</p>
-                <p>
+                <p class="method_desktop">
                   With clean hands, scrunch and mix everything up well. Divide into 6 and pat and mould each piece into
                   a
                   roundish shape about 2cm thick. Drizzle the burgers with oil, put on a plate, cover and place in the
@@ -120,30 +120,45 @@
                 </p>
               </section>
               <section class="method_text_instructions">
-                <p>
+                <p class="method_desktop">
                   Preheat a large griddle or frying pan for about 4 minutes on a high heat. Turn the heat down to
                   medium.</p>
-                <p>
+                <p class="method_desktop">
                   Place the burgers on the griddle or in the pan and use a spatula to lightly press down on them, making
                   sure the burger is in full contact. Cook them to your liking for 3 or 4 minutes on each side – you may
                   need to cook them in two batches.
                 </p>
               </section>
               <section class="method_text_instructions">
-                <p>
+                <p class="method_desktop">
                   Wash and dry a few small lettuce leaves, tearing up the larger ones. Slice the tomatoes. Peel and
                   finely
                   slice the red onion. Slice the gherkins lengthways as finely as you can. Place all this on a platter
                   and
                   put in the middle of the table with plates, cutlery, ketchup and drinks.</p>
-                <p>
+                <p class="method_desktop">
                   Remove your burgers to another plate and carefully wipe your pan or griddle clean with kitchen paper.
                 </p>
-                <p>
+                <p class="method_desktop">
                   Halve your burger buns and lightly toast them on the griddle or in the pan. Also great with a chopped
                   salad.
                 </p>
               </section>
+              <p class="method_mobile">
+                Wrap the crackers in a tea towel and smash up until fine, breaking up any big bits with your hands,
+                and put them into a large bowl.
+              </p>
+                <p class="method_mobile">
+
+                Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to
+                the bowl. Crack in the egg and add a good pinch of salt and pepper.
+              </p>
+              <p class="method_mobile">
+                With clean hands, scrunch and mix everything up well. Divide into 6 and pat and mould each piece into
+                a roundish shape about 2cm thick. Drizzle the burgers with oil, put on a plate, cover and place in the
+                fridge until needed (this helps them to firm up).
+
+              </p>
             </div>
           </div>
         </div>
@@ -231,5 +246,33 @@
 
   </main>
 </body>
+
+<footer>
+  <div class="footerWidth">
+      <div class="grid">
+          <div class="row">
+              <div class="footerContainer">
+                  <div class="col-6 col">
+                      <div class="footerTexti">
+                          <p>Craving more?</p>
+                          <hfooter>Subscribe to our newsletter</hfooter>
+                      </div>
+                  </div>
+                  <div class="col-3 col">
+                      <div class="footerTexti">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" placeholder="Enter your email here">
+                      </div>
+                  </div>
+                  <div class="col-3 col">
+                      <div class="buttonContainer">
+                          <button>Subscribe now</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
 
 </html>
