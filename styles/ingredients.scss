@@ -2,6 +2,17 @@
 
 .ingredients {
 
+  @media (max-width: 799px) {
+    @for $i from 1 through $columns {
+      .col-md-#{$i} {
+        width: ($i / $columns * 100%);
+      }
+      .offset-col-md-#{$i} {
+        margin-left: ($i / $columns * 100%);
+      }
+  }
+}
+
   & h3 {
     font-size: 1.125rem;
     font-family: $main-font-family;
