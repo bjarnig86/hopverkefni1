@@ -6,16 +6,23 @@ header {
   margin: auto;
   background-color: $color-1;
 
-  background-repeat: no-repeat;
-  background-position: right;
 
   .content {
     padding-top: 250px;
   }
 
-  .content_header_image {
+  .light {
+    max-width: 1590px;
+    height: 800px;
+    margin: auto;
+    background-color: $color-1;
     background-image: url('/img/bg-cake-shadow.png');
+    background-repeat: no-repeat;
+    background-position: right;
   }
+
+  //.dark
+
 
   .nav>img {
     display: flex;
