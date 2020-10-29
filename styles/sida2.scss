@@ -8,7 +8,7 @@
 
  /* Efsti hluti síðu */
 
- 
+
   .fyrirsognEyebrow{
     display:flex;
     margin-left:20px;
@@ -50,9 +50,9 @@
 
   .kassi p{
       margin-top:10px;
-      font-family: 'Poppins', helvetica, arial, sans-serif;   
+      font-family: 'Poppins', helvetica, arial, sans-serif;
   }
- 
+
   .kassi h3{
       font-size:26px;
       font-family: 'Playfair Display', helvetica, arial, sans-serif;
@@ -60,12 +60,12 @@
   }
 
   .myndaLysing-1{
-      
+
       margin-right:10px;
       margin-left:10px;
       margin-bottom:10px;
       font-size:20px;
-      
+
   }
 
   .myndaLysing-2{
@@ -75,7 +75,7 @@
       margin-right:10px;
       margin-left:10px;
   }
-  
+
   .myndaLysing-2 .linkur{
     color:#E3CDB1;
   }
@@ -101,7 +101,7 @@
 .footerTexti p{
     color:white;
     margin-top:130px;
-    font-family: 'Poppins', helvetica, arial, sans-serif; 
+    font-family: 'Poppins', helvetica, arial, sans-serif;
 }
 .footerTexti hfooter{
     color:white;
@@ -129,13 +129,16 @@
     display:flex;
     justify-content:flex-end;
 }
-button {
-    background-color: black;
-    color: #E3CDB1;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Poppins', helvetica, arial, sans-serif;
-    width:250px;
-    height:52px;
-    margin-top:157px;
+
+footer > button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #e3cdb1;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 157px;
+  width: 250px;
 }
