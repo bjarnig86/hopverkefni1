@@ -32,10 +32,29 @@
 medium—upp að 800px
 */
 
+/*
+@media (max-width: 799px) {
+  @for $i from 1 to 13 {
+    .col-md-#{$i} { width: 8.333333333%*$i;}
+  }
+
+  .offset-col-md-1 {
+    margin-left: 8.333333333%;
+  }
+
+  .offset-col-md-2 {
+    margin-left: 16.66666667%;
+  }
+
+  .offset-col-md-3 {
+    margin-left: 25%;
+  }
+}*/
+
 @media (max-width: 799px) {
   @for $i from 1 through $columns {
     .col-md-#{$i} {
-      width: ($i/$columns * 100 * 1%);
+      width: ($i/$columns * 100% * 1%);
     }
     .offset-col-md-#{$i} {
       margin-left: ($i/$columns * 100 * 1%);
@@ -46,6 +65,25 @@ medium—upp að 800px
 /*
 small—upp að 500px
 */
+/*
+@media (max-width: 499px) {
+  @for $i from 1 to 13 {
+    .col-sm-#{$i} { width: 8.333333333%*$i;}
+  }
+
+  .offset-col-sm-1 {
+    margin-left: 8.333333333%;
+  }
+
+  .offset-col-sm-2 {
+    margin-left: 16.66666667%;
+  }
+
+  .offset-col-sm-3 {
+    margin-left: 25%;
+  }
+}*/
+
 @media (max-width: 499px) {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
