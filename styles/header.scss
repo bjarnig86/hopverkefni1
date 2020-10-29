@@ -1,13 +1,9 @@
 @import './config';
-// stílar fyrir header
-header {
-  background-color: $color-1;
-<<<<<<< HEAD
-  background-image: url('/img/bg-cake-shadow.png');
-=======
 
-  background-repeat: no-repeat;
->>>>>>> e01ae8725ad3312324eb6faa0d00077b8bb71e05
+// stílar fyrir header
+.light {
+  background-color: $color-1;
+  background-image: url('/img/bg-cake-shadow.png');
   background-position: right;
   background-repeat: no-repeat;
   height: 800px;
@@ -17,19 +13,9 @@ header {
   .content {
     padding-top: 250px;
   }
-
-<<<<<<< HEAD
-  .nav > img {
-=======
+  /* stylelint-disable-next-line selector-class-pattern */
   .content_header_image {
     background-image: url('/img/bg-cake-shadow.png');
-  }
-
-  .nav>img {
->>>>>>> e01ae8725ad3312324eb6faa0d00077b8bb71e05
-    display: flex;
-    justify-content: center;
-    position: fixed;
   }
 
   .above {
@@ -45,6 +31,12 @@ header {
   h1 {
     font-size: 3.75em;
   }
+}
+
+.nav > img {
+  display: flex;
+  justify-content: center;
+  position: fixed;
 }
 
 @media (max-width: 799px) {

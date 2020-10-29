@@ -8,22 +8,7 @@
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch styles.scss --recursive styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
-<<<<<<< HEAD
     "lint": "stylelint styles.scss ./**/*.scss",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "lint": "stylelint styles.scss ./** /*.scss",
-=======
-    "lint": "stylelint styles.scss ./**/*.scss",
->>>>>>> a366b092d622453660d4b5b8599c2db01d6cc61a
-=======
-    "lint": "stylelint styles.scss ./**/*.scss",
-=======
-    "lint": "stylelint styles.scss ./** /*.scss",
->>>>>>> 8c80f4025c8a0c7a8f953bf57d6a598f44f9e1d8
->>>>>>> 6b843ecc852f601f96a3c7721c3ef30dd21205ae
->>>>>>> e01ae8725ad3312324eb6faa0d00077b8bb71e05
     "lint-css": "stylelint styles.css",
     "lint-scss": "stylelint styles.scss"
   },
