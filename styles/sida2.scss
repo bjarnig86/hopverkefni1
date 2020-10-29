@@ -129,13 +129,16 @@
     display:flex;
     justify-content:flex-end;
 }
-footer>button {
-    background-color: black;
-    color: #E3CDB1;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Poppins', helvetica, arial, sans-serif;
-    width:250px;
-    height:52px;
-    margin-top:157px;
+
+footer > button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #e3cdb1;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 157px;
+  width: 250px;
 }
