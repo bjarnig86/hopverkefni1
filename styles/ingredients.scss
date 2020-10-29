@@ -2,9 +2,21 @@
 
 .ingredients {
 
+  @media (max-width: 799px) {
+    @for $i from 1 through $columns {
+      .col-md-#{$i} {
+        width: ($i / $columns * 100%);
+      }
+      .offset-col-md-#{$i} {
+        margin-left: ($i / $columns * 100%);
+      }
+  }
+}
+
   & h3 {
     font-size: 1.125rem;
     font-family: $main-font-family;
+    margin-top:1.5rem;
   }
 
   &_list {
@@ -22,7 +34,7 @@
         font-family: $h-font-family;
         font-weight: 700;
         font-size: 2.25rem;
-        margin-right: 20px;
+        margin-right: 2rem;
       }
     }
   }

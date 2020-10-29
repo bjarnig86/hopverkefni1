@@ -1,18 +1,88 @@
 @import './config';
 
 .tags {
-
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+
+  @media (max-width: 799px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  & p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    color:$black;
+  }
+
+}
+
+.below_mobile {
+
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
+
+.level, .serving, .preparation {
+  display:flex;
+  @media (max-width: 799px) {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .ingredients > h2{
   margin-bottom: 2rem;
-  margin-top:6rem;
+
+  @media (max-width: 799px) {
+    margin-top:0%;
+    margin-bottom: 0%;
+  }
 }
 
 .method > h2 {
   margin-bottom: 2rem;
-  margin-top: 6rem;
+
+  @media (max-width: 799px) {
+    margin-top:2rem;
+    margin-bottom: 0%;
+  }
 }
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  &_inner {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+
+    &_text {
+      font-weight: 500;
+      font-family: $main-font-family;
+      font-size: 1rem;
+    }
+  }
+}
+
+.recipe_h2 {
+  color: $color-8;
+  font-size: 2.5rem;
+  font-weight:700;
+}
+
+hr {
+  display: flex;
+  margin: auto;
+  color: $color-1;
+  width: 40%;
+  height: 1px;
+}
+
+

@@ -21,10 +21,10 @@
 
 @for $i from 1 through $columns {
   .col-#{$i} {
-    width: ($i/$columns * 100%);
+    width: ($i / $columns * 100%);
   }
   .offset-col-#{$i} {
-    margin-left: ($i/$columns * 100%);
+    margin-left: ($i / $columns * 100%);
   }
 }
 
@@ -32,13 +32,15 @@
 medium—upp að 800px
 */
 
+
+
 @media (max-width: 799px) {
   @for $i from 1 through $columns {
     .col-md-#{$i} {
-      width: ($i/$columns * 100 * 1%);
+      width: ($i / $columns * 100%);
     }
     .offset-col-md-#{$i} {
-      margin-left: ($i/$columns * 100 * 1%);
+      margin-left: ($i / $columns * 100%);
     }
   }
 }
@@ -46,13 +48,16 @@ medium—upp að 800px
 /*
 small—upp að 500px
 */
+
+
+
 @media (max-width: 499px) {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
-      width: ($i/$columns * 100 * 1%);
+      width: ($i / $columns * 100%);
     }
     .offset-col-sm-#{$i} {
-      margin-left: ($i/$columns * 100 * 1%);
+      margin-left: ($i / $columns * 100%);
     }
   }
 }
