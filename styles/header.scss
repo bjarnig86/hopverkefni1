@@ -3,14 +3,33 @@
 header {
   max-width: 1590px;
   height: 800px;
-  margin: auto;
   background-color: $color-1;
-  background-image: url('/img/bg-cake-shadow.png');
+  
   background-repeat: no-repeat;
   background-position: right;
 
-  .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .video {
+    display: flex;
+    width: 500px;
+  }
+  
+  .header {
+    margin: auto;
     padding-top: 250px;
+    display: flex;
+
+    &_content {
+
+    }
+
+    //background-size: cover;
+    //background-image: url('../img/Video.png');
+
+    
   }
 
   .nav>img {

@@ -1,5 +1,12 @@
 @import './config';
 
+.image {
+  max-height: 230px;
+  img {
+    object-fit: scale-down;
+  }
+}
+
 // stílar fyrir main
 .latest-recipes {
   margin-bottom: 150px;
