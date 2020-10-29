@@ -69,6 +69,11 @@
       font-size: 1rem;
     }
   }
+
+  @media screen {
+   display: flex;
+   align-items: center;
+  }
 }
 
 .recipe_h2 {
@@ -83,6 +88,11 @@ hr {
   color: $color-1;
   width: 40%;
   height: 1px;
+
+  @media (max-width:799px) {
+    display:none;
+
+  }
 }
 
 
