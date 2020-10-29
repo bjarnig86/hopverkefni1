@@ -1,18 +1,62 @@
 @import './config';
 
 .tags {
-
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+
+  & p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    color:$black;
+  }
+
+}
+
+.level, .serving, .preparation {
+  display:flex;
 }
 
 .ingredients > h2{
   margin-bottom: 2rem;
-  margin-top:6rem;
 }
 
 .method > h2 {
   margin-bottom: 2rem;
-  margin-top: 6rem;
 }
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  &_inner {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+
+    &_text {
+      font-weight: 500;
+      font-family: $main-font-family;
+      font-size: 1rem;
+    }
+  }
+}
+
+.recipe_h2 {
+  color: $color-8;
+  font-size: 2.5rem;
+  font-weight:700;
+}
+
+hr {
+  display: flex;
+  margin: auto;
+  color: $color-1;
+  width: 40%;
+  height: 1px;
+}
+
+
