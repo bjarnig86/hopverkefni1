@@ -15,10 +15,33 @@ header {
 
     &_dark {
       background-color: black;
-      color: white;
+      color: #FFFFFF;
       height: 100%;
+      }
+      &_tags {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 1.5rem;
+          margin-top: 1rem;
+          color: #FFFFFF;
+          & p {
+            font-weight: 400;
+            font-size: 1.125rem;
+            padding-left: 0.5rem;
+            padding-right: 1.5rem;
+          }
+        @media (max-width: 799px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    } 
     }
   }
+
+    
+  
+  
 
 
   .light {
@@ -52,7 +75,6 @@ header {
   .hero{
     display: flex;
     flex-direction: column;
-
 
   }
 
