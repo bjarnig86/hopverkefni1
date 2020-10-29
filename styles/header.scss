@@ -2,15 +2,22 @@
 // stílar fyrir header
 header {
   background-color: $color-1;
-  background-image: url('/img/bg-cake-shadow.png');
+  //background-image: url('/img/bg-cake-shadow.png');
   background-position: right;
   background-repeat: no-repeat;
-  height: 800px;
+  //height: 800px;
   margin: auto;
   max-width: 1590px;
+  padding-top: 80px;
 
   .content {
     padding-top: 250px;
+
+    &_dark {
+      background-color: black;
+      color: white;
+      height: 100%;
+    }
   }
 
 
@@ -24,8 +31,30 @@ header {
     background-position: right;
   }
 
-  //.dark
+  .dark{
+    max-width: 1590px;
+    height: 570px;
+    background-color: black;
+    background-image: url('/img/Video.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    //background-size: cover;
+    
 
+    &_gradient {
+      background-image: linear-gradient((270deg, rgba(0, 0, 0, 0.0001) 10%, #000000 60%));
+      height:570px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+
+
+  }
 
   .nav>img {
     display: flex;
