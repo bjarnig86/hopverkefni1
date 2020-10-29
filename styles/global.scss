@@ -25,12 +25,13 @@ h5 {
 }
 
 button {
+  background-color: transparent;
+  border: 1px solid $color-3;
+  color: $color-3;
   margin: 2em;
   min-height: 50px;
   width: 250px;
-  border: 1px solid $color-3;
-  background-color: transparent;
-  color: $color-3;
+
   &:hover {
     background-color: $color-3;
     color: $color-1;
@@ -40,4 +41,3 @@ button {
 main {
   margin-top: 100px;
 }
-
