@@ -1,6 +1,10 @@
 @import './config';
 
 // stílar fyrir header
+header {
+  margin-bottom: 100px;
+}
+
 .light {
   align-items: center;
   background-color: $color-1;
@@ -22,7 +26,7 @@
   background-repeat: no-repeat;
   height: 570px;
   max-width: 1590px;
-  margin-bottom: 100px;
+  margin: auto;
   padding-top: 80px;
 
   .content_dark {
