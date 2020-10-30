@@ -3,69 +3,27 @@
 // stílar fyrir header
 .light {
   background-color: $color-1;
-<<<<<<< HEAD
   background-image: url('/img/bg-cake-shadow.png');
-=======
-  //background-image: url('/img/bg-cake-shadow.png');
->>>>>>> 124e510a2323bf18c6422b79c6d17a751e428983
   background-position: right;
   background-repeat: no-repeat;
-  //height: 800px;
+  height: 800px;
   margin: auto;
   max-width: 1590px;
   padding-top: 80px;
 
-  .content {
+  @media (max-width:799px) {
+    background-position-x: 10%;
+
+  }
+}
+
+ .content {
     padding-top: 250px;
 
     &_dark {
       background-color: black;
-      color: #FFFFFF;
+      color: white;
       height: 100%;
-      }
-      &_tags {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          margin-bottom: 1.5rem;
-          margin-top: 1rem;
-          color: #FFFFFF;
-          & p {
-            font-weight: 400;
-            font-size: 1.125rem;
-            padding-left: 0.5rem;
-            padding-right: 1.5rem;
-          }
-        @media (max-width: 799px) {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    } 
-    }
-  }
-<<<<<<< HEAD
-  /* stylelint-disable-next-line selector-class-pattern */
-  .content_header_image {
-=======
-
-    
-  
-  
-
-
-  .light {
-    max-width: 1590px;
-    height: 800px;
-    margin: auto;
-    background-color: $color-1;
->>>>>>> 124e510a2323bf18c6422b79c6d17a751e428983
-    background-image: url('/img/bg-cake-shadow.png');
-    background-repeat: no-repeat;
-    background-position: right;
-
-    @media (max-width:799px) {
-      background-position-x: 10%;
-
     }
   }
 
@@ -87,21 +45,6 @@
     }
   }
 
-  .hero{
-    display: flex;
-    flex-direction: column;
-
-  }
-
-<<<<<<< HEAD
-=======
-  .nav>img {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-  }
-
->>>>>>> 124e510a2323bf18c6422b79c6d17a751e428983
   .above {
     color: $color-3;
   }
@@ -115,7 +58,7 @@
   h1 {
     font-size: 3.75em;
   }
-}
+
 
 .nav > img {
   display: flex;
