@@ -34,6 +34,7 @@
   display:flex;
   @media (max-width: 799px) {
     margin-bottom: 0.5rem;
+    width: 100%;
   }
 }
 
@@ -71,8 +72,8 @@
   }
 
   @media screen {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
   }
 }
 
