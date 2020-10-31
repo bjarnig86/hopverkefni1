@@ -12,64 +12,9 @@
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 50px;
-}
 
-//   .fyrirsogn p{
-//       margin-top:2%;
-//   }
-//   h1 {
-//       /*margin-top:10%; */
-//       margin-bottom:2%;
-//       font-size:40px;
-//       font-family: 'Playfair Display', helvetica, arial, sans-serif;
-//   }
-//
-
-/* Footer test */
-footer {
-  background-color: black;
-  height: 350px;
-  margin: auto;
-  max-width: 1600px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-.footerContainer {
-  display: flex;
-  width: 100%;
-}
-
-.footerTexti {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.footerTexti p {
-  color: white;
-
-}
-
-.footerTexti h2 {
-  color: white;
-  font-size: 2.5em;
-}
-
-.footerTexti label {
-  font-family: $h-font-family;
-  color: white;
-  margin-left: 4px;
-  font-size: 14px;
-}
-
-.footerTexti input {
-  font-family: $h-font-family;
-  height: 33px;
-  font-size: 22px;
-  color: white;
-  background-color: transparent;
+  p {
+    font-size: 1.5em;
+    padding-top: 1em;
+  }
 }

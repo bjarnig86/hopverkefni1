@@ -1,10 +1,59 @@
 @import './config';
 
 footer {
+  background-color: black;
+  margin: auto;
+  max-width: 1600px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  .footer-texti {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @media (max-width: 799px) {
+      h2,
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  p {
+    color: $color-3;
+
+  }
+
   h2 {
     color: $white;
+    font-size: 2.5em;
+  }
+
+  label {
+    color: $white;
+    font-family: $h-font-family;
+    font-size: 1.2em;
+    margin-top: 0.7em;
+  }
+
+  input {
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-color: $color-3;
+    color: $white;
+    font-family: $h-font-family;
+    font-size: 22px;
+    height: 33px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
   }
 }
+
 .lower_footer {
   margin: 0 auto;
   display: flex;

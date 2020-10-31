@@ -1,9 +1,9 @@
 @import './config';
 
 .tags {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 
@@ -13,12 +13,12 @@
     align-items: flex-start;
   }
 
-  & p {
+  p {
     font-weight: 400;
     font-size: 1.125rem;
     padding-left: 0.5rem;
     padding-right: 1.5rem;
-    color:$black;
+    color: $black;
   }
 
 }
@@ -30,20 +30,26 @@
   }
 }
 
-.level, .serving, .preparation {
-  display:flex;
+.level,
+.serving,
+.preparation {
+  display: flex;
+
   @media (max-width: 799px) {
     margin-bottom: 0.5rem;
     width: 100%;
   }
 }
 
-.ingredients > h2{
+.ingredients > h2 {
+  color: $color-8;
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 2rem;
 
   @media (max-width: 799px) {
-    margin-top:0%;
     margin-bottom: 0%;
+    margin-top: 0%;
   }
 }
 
@@ -51,49 +57,32 @@
   margin-bottom: 2rem;
 
   @media (max-width: 799px) {
-    margin-top:2rem;
     margin-bottom: 0%;
+    margin-top: 2rem;
   }
 }
 
 .button {
-  display: flex;
   align-content: center;
+  display: flex;
   justify-content: space-between;
-  &_inner {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-
-    &_text {
-      font-weight: 500;
-      font-family: $main-font-family;
-      font-size: 1rem;
-    }
-  }
 
   @media screen {
-    display: flex;
     align-items: center;
+    display: flex;
+    justify-content: center;
   }
-}
-
-.recipe_h2 {
-  color: $color-8;
-  font-size: 2.5rem;
-  font-weight:700;
 }
 
 hr {
-  display: flex;
-  margin: auto;
   color: $color-1;
-  width: 40%;
+  display: flex;
   height: 1px;
+  margin: auto;
+  width: 40%;
 
   @media (max-width:799px) {
-    display:none;
+    display: none;
 
   }
 }
-
-
