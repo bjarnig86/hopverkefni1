@@ -8,23 +8,21 @@
   margin-top: 1rem;
 
   @media (max-width: 799px) {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
 
   p {
-    font-weight: 400;
+    color: $black;
     font-size: 1.125rem;
+    font-weight: 400;
     padding-left: 0.5rem;
     padding-right: 1.5rem;
-    color: $black;
   }
-
 }
-
+/* stylelint-disable-next-line selector-class-pattern */
 .below_mobile {
-
   @media (min-width: 800px) {
     display: none;
   }
@@ -84,8 +82,7 @@ hr {
   margin: auto;
   width: 40%;
 
-  @media (max-width:799px) {
+  @media (max-width: 799px) {
     display: none;
-
   }
 }

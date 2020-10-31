@@ -1,16 +1,17 @@
 @import './config';
 
 footer {
-  background-color: black;
+  background-color: $black;
   margin: auto;
   max-width: 1600px;
-  padding-top: 120px;
   padding-bottom: 120px;
+  padding-top: 120px;
 
   .footer-texti {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
     @media (max-width: 799px) {
       h2,
       p {
@@ -21,7 +22,6 @@ footer {
 
   p {
     color: $color-3;
-
   }
 
   h2 {
@@ -38,10 +38,10 @@ footer {
 
   input {
     background-color: transparent;
+    border-color: $color-3;
     border-left: transparent;
     border-right: transparent;
     border-top: transparent;
-    border-color: $color-3;
     color: $white;
     font-family: $h-font-family;
     font-size: 22px;
@@ -53,88 +53,81 @@ footer {
     justify-content: center;
   }
 }
-
+/* stylelint-disable-next-line selector-class-pattern */
 .lower_footer {
-  margin: 0 auto;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 
   &_text {
-    font-weight: 400;
+    color: $black;
     font-family: $main-font-family;
     font-size: 1.125rem;
-    color:$black;
+    font-weight: 400;
     margin-top: 3.5rem;
 
-
-    @media (max-width:799px) {
-      color:#2E2624;
-
+    @media (max-width: 799px) {
+      color: $color-9;
     }
   }
 
-  & .website {
-    margin-top: 1rem;
-    color:$color-8;
-    font-weight: 300;
+  .website {
+    color: $color-8;
     font-family: $main-font-family;
     font-size: 14px;
+    font-weight: 300;
     margin-bottom: 4rem;
+    margin-top: 1rem;
 
     @media (max-width) {
-      color: #D6D6D6;
+      color: $color-0;
       font-size: 0.875rem;
-
     }
   }
 
-  & .logos {
-    margin-top: 1rem;
+  .logos {
     display: flex;
     flex-direction: row;
-    width: 200px;
     justify-content: space-between;
-
+    margin-top: 1rem;
+    width: 200px;
+    /* stylelint-disable-next-line max-nesting-depth */
     &_img {
-      border: 1px solid #E3CDB1;
+      border: 1px solid $color-3;
       border-radius: 50px;
+      display: flex;
+      height: 40px;
+      justify-content: center;
       padding: 8px;
       width: 40px;
-      height: 40px;
-      display: flex;
-      justify-content: center;
-
     }
 
-
-    @media (max-width:799px) {
+    @media (max-width: 799px) {
       display: none;
-
     }
-
+    /* stylelint-disable-next-line max-nesting-depth */
     &_mobile {
-      margin-top: 1rem;
       display: flex;
-    flex-direction: row;
-
-      & .logos_img {
-        @media (max-width:799px) {
-          border: 1px solid #D0D0D0;
-          margin-right: 0.5rem;
-          margin-left:0.5rem;
+      flex-direction: row;
+      margin-top: 1rem;
+      /* stylelint-disable-next-line max-nesting-depth */ /* stylelint-disable-next-line selector-class-pattern */
+      .logos_img {
+        @media (max-width: 799px) {
+          border: 1px solid $color-8;
           border-radius: 50px;
-          width: 40px;
-          height: 40px;
           display: flex;
+          height: 40px;
           justify-content: center;
-
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+          width: 40px;
         }
       }
+
       @media (min-width: 800px) {
         display: none;
-
       }
     }
   }
