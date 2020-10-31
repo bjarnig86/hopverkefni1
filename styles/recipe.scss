@@ -54,6 +54,9 @@
 }
 
 .method > h2 {
+  color: $color-8;
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 2rem;
 
   @media (max-width: 799px) {
